@@ -7,6 +7,7 @@
     
 }
 body {
+    font-family: 'Bebas Neue', cursive;
     background-image: url("./images/Background.jpg");
     background-size: cover;
 }
