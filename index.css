@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body {
+    background-image: url("./images/Background.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -11,13 +16,16 @@
 }
 
 .heading {
+    color: aliceblue;
     text-align: center;
+    padding-top: 50px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 500;
 }
 
 .cards {
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
@@ -43,6 +51,7 @@
     transition: 0.3s all ease;
     padding-top: 10px;
     margin: 5px;
+    opacity: 0;
    
 }
 
