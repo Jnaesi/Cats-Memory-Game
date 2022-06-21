@@ -7,11 +7,15 @@ cards.forEach((card) => {
     card.addEventListener("click", () => {
         card.classList.add("clicked");
 
-        if(counter = 0){
+        if(counter === 0){
             firstSelection = card.getAttribute("animal");
+            conuter++;
         } else {
             secondSelection = card.getAttribute("animal");
             counter = 0;
         }
+
+        console.log(firstSelection);
+        console.log(secondSelection);
     });
 });
