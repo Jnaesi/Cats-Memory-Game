@@ -38,9 +38,9 @@
 }
 
 .card img {
-    width: 80%;
+    width: 90%;
     max-height: 90px;
     transition: 0.3s all ease;
-    padding: 2px;
-    margin: 10px 10px;
+    padding-top: 10px;
+    margin: 5px;
 }
