@@ -9,7 +9,7 @@ cards.forEach((card) => {
 
         if(counter === 0){
             firstSelection = card.getAttribute("animal");
-            conuter++;
+            counter++;
         } else {
             secondSelection = card.getAttribute("animal");
             counter = 0;
