@@ -60,3 +60,11 @@ body {
 .card.clicked {
     background-color: orange;
 }
+
+.card.checked {
+    background-color: green;
+}
+
+.card.clicked img {
+    opacity: 1;
+}

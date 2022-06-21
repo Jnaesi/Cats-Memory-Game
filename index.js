@@ -7,15 +7,18 @@ cards.forEach((card) => {
     card.addEventListener("click", () => {
         card.classList.add("clicked");
 
-        if(counter === 0){
+        if(counter === 0) {
             firstSelection = card.getAttribute("animal");
             counter++;
         } else {
             secondSelection = card.getAttribute("animal");
             counter = 0;
-        }
 
-        console.log(firstSelection);
-        console.log(secondSelection);
+            if(firstSelection) === secondSelection) {
+                const correctCards = document.querySelectorAll(".card[animal='" + firstSelection + "']");
+
+            correctCards[0].classList.add("checked");
+            correctCards[1].classList.add("checked");
+        }
     });
 });
