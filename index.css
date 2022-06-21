@@ -16,3 +16,30 @@
     font-size: 2rem;
     font-weight: 500;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+.card {
+    height: 110px;
+    width: 90px;
+    background-color: #ffff00;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+    transition: 0.3s all ease;
+}
