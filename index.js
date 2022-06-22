@@ -23,6 +23,10 @@ cards.forEach((card) => {
                 correctCards[1].classList.add("checked");
                 correctCards[1].classList.remove("clicked");
             } else {
+                const incorrectCards = document.querySelectorAll(".card.clicked");
+
+                incorrectCards[0].classList.add("shake");
+                incorrectCards[1].classList.add("shake");
             } 
         }
     });
