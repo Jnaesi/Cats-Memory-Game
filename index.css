@@ -48,8 +48,10 @@ body {
 }
 
 .card img {
-    width: 80%;
+    width: 85%;
     max-height: 90px;
+    padding: 5px;
+    margin: 7px;
     transition: 0.3s all ease;
     opacity: 0;
    
@@ -64,12 +66,12 @@ body {
 }
 
 .card.clicked img, .card.checked img {
-    opacity: 0;
+    opacity: 1;
 }
 
 .card.shake {
     background-color: #f80707;
-    animation: 0.5s;
+    animation: shake 0.5s;
 }
 
 @keyframes shake {
