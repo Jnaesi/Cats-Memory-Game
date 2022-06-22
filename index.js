@@ -1,7 +1,20 @@
 let counter = 0;
 let firstSelection = "";
 let secondSelection = "";
+var restartButton;
 
+
+/* 
+Game functions
+*/
+
+function refreshPage(){
+    window.location.reload();
+} 
+
+/*
+Memory functions
+*/
 const cards = document.querySelectorAll(".cards .card");
 cards.forEach((card) => {
     card.addEventListener("click", () => {

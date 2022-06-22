@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
-    
+
+
+/*---------------Homepage styling---------------*/
 }
 body {
     background-image: url("./images/Background.jpg");
@@ -26,6 +28,21 @@ body {
     font-weight: 500;
 }
 
+/*---------------Button styling---------------*/
+.restartButton {
+  background-color: #ffff00;
+  color: rgb(137, 2, 247);
+  padding: 10px, 15px;
+  margin-bottom: 20px;
+  font-size: 25px;
+
+}
+
+.restartButton:hover {
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.50), 0 16px 50px 0 rgba(0,0,0,0.50);
+}
+
+/*---------------Game styling---------------*/
 .cards {
     padding-bottom: 50px;
     display: grid;
