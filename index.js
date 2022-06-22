@@ -5,7 +5,7 @@ var restartButton;
 
 
 /* 
-Game functions
+Page functions
 */
 
 function refreshPage(){
