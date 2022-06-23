@@ -111,4 +111,4 @@ The sites below where used as reference point for Javascript.
 The background image and the images of the cats was obtained from https://elements.envato.com/ a stock images site.
 
 ### Acknowledgements
-I'd like to thank the brilliant people and community on slack that helped me through Javascript and the great learning materials on code institute.
+I'd like to thank the students and community on slack that helped me through Javascript and the incredible learning materials on code institute.
