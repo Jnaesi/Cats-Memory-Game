@@ -7,6 +7,18 @@ Space Cats Memory Game is a web based game built in JavaScript, HTML and CSS.  I
 [View the live website on GitHub Pages](https://jnaesi.github.io/SpaceCats-Memory-Game/)
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
+## Table of Contents
+* [Strategy Plane](#Strategy-Plane)
+    * [Site Goals](#Site-Goals)
+* [The Skeleton Scope](#The-Skeleton-Scope)
+    * [Wireframes](#Wireframe)
+* [Features](#features)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Media](#Media)
+* [Acknowledgements](#Acknowledgements)
+
 ### Strategy Plane
 * Space Cats Memory Game is intended to be a fun game for individual users to play for short periods of time. The graphical elements and overall design of games immediately provide the user with a visual indicator of what the site is about and set the tone of the interaction.
 
@@ -15,7 +27,7 @@ Please note: To open any links in this document in a new browser tab, please pre
 * To ensure the game is fully accessible on desktop and touch enabled devices
 * To ensure the game is fully compliant with keyboard commands and screen readers
 
-### The Skeleton Plane
+### The Skeleton Scope
 #### Wireframe mockups
 I used Mockflow to produce wireframes of how the game would look across different devices.
 
@@ -53,7 +65,7 @@ The site is designed with a central column grid layout that the JavaScript inser
   * No errors were returned when passing through the validator service at JSHint.com.
 
 * Lighthouse 
-  * The lighthouse report gave an almost perfect score of 92, 100, 100, 92. 
+  * The lighthouse report gave a great score of 92, 100, 100, 92. 
   
   <img src="assets/images/Lighthouse.jpg" alt="Refresh" width="500" height="200"/>
 
