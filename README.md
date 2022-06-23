@@ -2,7 +2,7 @@
 ## Introduction
 Space Cats Memory Game is a web based game built in JavaScript, HTML and CSS.  It is targetted towards users who would like a short fun game to play with a very simple setup.
 
-<img src="assets/images/Spacecats_screen_mockup.jpg" alt="preview" width="1200" height="800"/>
+<img src="assets/images/Spacecats_screen_mockup.jpg" alt="preview" width="1400" height="800"/>
 
 [View the live website on GitHub Pages](https://jnaesi.github.io/SpaceCats-Memory-Game/)
 Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
@@ -20,7 +20,7 @@ Please note: To open any links in this document in a new browser tab, please pre
 I used Mockflow to produce wireframes of how the game would look across different devices.
 
 #### Wireframe
-<img src="assets/images/the_skeleton_scope.jpg" alt="drawing" width="1200" height="800"/>
+<img src="assets/images/the_skeleton_scope.jpg" alt="drawing" width="1400" height="800"/>
 
 
 # Features
