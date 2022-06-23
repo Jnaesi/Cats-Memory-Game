@@ -64,6 +64,12 @@ The site is designed with a central column grid layout that the JavaScript inser
 
   * No errors were returned when passing through the validator service at JSHint.com.
 
+  * Metrics
+  * There are 4 functions in this file.
+  * Function with the largest signature take 1 arguments, while the median is 0.
+  * Largest function has 16 statements in it, while the median is 2.5.
+  * The most complex function has a cyclomatic complexity value of 3 while the median is 1.
+
 * Lighthouse 
   * The lighthouse report gave a great score of 92, 100, 100, 92. 
   
